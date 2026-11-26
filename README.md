@@ -200,9 +200,6 @@ Among customers with more than 5 previous purchases: **958 of 3,476 (27.6%)** su
 ---
 
 ## 📈 Power BI Dashboard
-
-> 📷 *Add a screenshot of your dashboard here:* `![Dashboard](images/dashboard.png)`
-
 The dashboard connects to the PostgreSQL `customer` table and includes:
 
 - **KPI cards:** average purchase amount, average review rating, number of customers
