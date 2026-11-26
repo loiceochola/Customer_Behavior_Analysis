@@ -1,225 +1,148 @@
-# Customer_Behavior_Analysis
-data analytics project showing  customer behavior using python, SQL and power BI
-# 📊 Data Analytics Project
+# Customer Shopping Behavior Analysis
 
-## 1. Overview
+**End-to-end analysis of 3,900 retail customers using Python, PostgreSQL and Power BI.**
 
-This project demonstrates an end-to-end data analytics workflow, focusing on transforming raw data into meaningful insights that support data-driven decision-making.
-
-The project involves loading a dataset using Python, performing Exploratory Data Analysis (EDA), cleaning and preparing the data, conducting SQL analysis, building an interactive Power BI dashboard, and presenting findings through a written report and PowerPoint presentation.
-
-The main objective is to identify trends, patterns, and key insights from the dataset and communicate the results effectively.
-
-## 2. Dataset
-
-The dataset used in this project contains raw data for analysis.
-
-**Dataset Details:**
-- Dataset Name: [Insert Dataset Name]
-- Data Source: [Insert Source or Dataset Link]
-- File Format: CSV / Excel
-- Description: [Briefly describe the dataset and its purpose]
-
-The dataset was imported into Python for initial exploration, cleaning, and preparation before further analysis.
-
-## 3. Tools and Technologies
-
-The following tools were used throughout the project:
-
-| Tool | Purpose |
-|---|---|
-| Python | Data loading, cleaning, and analysis |
-| Pandas & NumPy | Data manipulation and processing |
-| Matplotlib & Seaborn | Data visualization and EDA |
-| PostgreSQL / MySQL / SQL Server | Database management and SQL analysis |
-| Power BI | Interactive dashboard development |
-| Gamma AI | PowerPoint presentation creation |
-| Jupyter Notebook | Writing and executing Python code |
-| Git & GitHub | Project documentation and version control |
-
-## 4. Project Steps
-
-### Step 1: Data Loading
-- Imported the dataset into Python.
-- Used Pandas to load and inspect the data.
-- Reviewed the dataset structure, columns, and data types.
-
-### Step 2: Exploratory Data Analysis (EDA)
-- Examined the dataset using descriptive statistics.
-- Identified trends, patterns, and relationships.
-- Checked for missing values and duplicate records.
-- Created visualizations to understand the data distribution.
-
-### Step 3: Data Cleaning
-- Handled missing and null values.
-- Removed duplicate records.
-- Corrected inconsistent data formats.
-- Renamed columns where necessary.
-- Ensured data accuracy and consistency.
-- Prepared the cleaned dataset for SQL analysis.
-
-### Step 4: SQL Analysis
-- Imported the cleaned dataset into PostgreSQL / MySQL / SQL Server.
-- Created database tables where necessary.
-- Used SQL queries to extract meaningful insights.
-- Applied filtering, sorting, grouping, and aggregation.
-- Used JOINs, subqueries, and other SQL techniques where appropriate.
-
-### Step 5: Power BI Dashboard
-- Connected Power BI to the cleaned dataset or database.
-- Created data relationships and measures.
-- Developed interactive charts and visualizations.
-- Designed KPI cards to highlight important metrics.
-- Added filters and slicers for interactive analysis.
-
-### Step 6: Reporting
-- Summarized the analysis process and findings.
-- Highlighted important trends and business insights.
-- Provided conclusions and recommendations based on the results.
-
-### Step 7: PowerPoint Presentation
-- Created a presentation using Gamma AI.
-- Summarized the project objectives, methodology, findings, and recommendations.
-- Presented key insights in a clear and professional format.
-
-## 5. Dashboard
-
-The Power BI dashboard provides an interactive overview of the key findings from the analysis.
-
-**Dashboard Features:**
-- Key Performance Indicators (KPIs).
-- Trend and performance analysis.
-- Category-wise comparisons.
-- Interactive filters and slicers.
-- Visual summaries of important findings.
-
-**Dashboard Preview:**
-
-[Insert Power BI Dashboard Screenshot Here]
-
-**Power BI File:** `dashboard.pbix`
-
-## 6. Results and Key Insights
-
-The analysis helped identify meaningful patterns and insights from the dataset.
-
-Key findings include:
-
-- Identified important trends and patterns in the data.
-- Highlighted relationships between relevant variables.
-- Discovered potential areas for improvement.
-- Presented key performance indicators for easier monitoring.
-- Developed data-driven recommendations based on the findings.
-
-**Main Outcome:**
-
-Successfully completed an end-to-end data analytics project, demonstrating practical skills in Python, SQL, Power BI, data cleaning, visualization, reporting, and presentation.
-
-## 7. Project Structure
-
-```text
-Data-Analytics-Project/
-│
-├── dataset/
-│   └── raw_data.csv
-│
-├── notebooks/
-│   ├── data_loading.ipynb
-│   ├── exploratory_data_analysis.ipynb
-│   └── data_cleaning.ipynb
-│
-├── sql/
-│   └── analysis_queries.sql
-│
-├── dashboard/
-│   ├── dashboard.pbix
-│   └── dashboard_screenshot.png
-│
-├── reports/
-│   └── project_report.pdf
-│
-├── presentation/
-│   └── project_presentation.pptx
-│
-└── README.md
-```
-
-## 8. How to Run
-
-Follow these steps to explore and reproduce the project:
-
-**Prerequisites:**
-- Python 3.x
-- Jupyter Notebook
-- PostgreSQL, MySQL, or SQL Server
-- Power BI Desktop
-- Required Python libraries
-
-**Step 1: Clone the Repository**
-
-```bash
-git clone https://github.com/your-username/your-repository.git
-```
-
-**Step 2: Navigate to the Project Folder**
-
-```bash
-cd your-repository
-```
-
-**Step 3: Install Required Libraries**
-
-```bash
-pip install pandas numpy matplotlib seaborn sqlalchemy jupyter
-```
-
-**Step 4: Run the Python Notebooks**
-
-```bash
-jupyter notebook
-```
-
-Open the notebooks in the `notebooks` folder and execute the cells in order.
-
-**Step 5: Run SQL Queries**
-
-- Create a database in your preferred SQL platform.
-- Import the cleaned dataset.
-- Open `analysis_queries.sql`.
-- Execute the queries to reproduce the analysis.
-
-**Step 6: Open the Power BI Dashboard**
-
-Open `dashboard.pbix` using Power BI Desktop to explore the interactive dashboard.
-
-**Step 7: Review the Final Deliverables**
-
-Open the project report in the `reports` folder and the PowerPoint presentation in the `presentation` folder.
-
-## 9. Skills Demonstrated
-
-This project demonstrates the following technical and professional skills:
-
-- Python for data analysis.
-- Data cleaning and preprocessing.
-- Exploratory Data Analysis (EDA).
-- SQL querying and database management.
-- Data visualization.
-- Power BI dashboard development.
-- Analytical thinking and problem-solving.
-- Report writing and documentation.
-- Data storytelling and presentation.
-
-## 10. Author
-
-**Name:** [Your Full Name]
-
-**Role:** Aspiring Data Analyst
-
-**GitHub:** [Your GitHub Profile Link]
-
-**LinkedIn:** [Your LinkedIn Profile Link]
+![Python](https://img.shields.io/badge/Python-pandas-blue) ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791) ![Power BI](https://img.shields.io/badge/Dashboard-Power%20BI-F2C811)
 
 ---
 
-*This project was developed for learning, portfolio development, and demonstrating practical data analytics skills.*
+##  Table of Contents
+1. [Business Problem](#-business-problem)
+2. [About the Data](#-about-the-data)
+3. [Approach and Tools](#-approach-and-tools)
+4. [Analysis Results](#-analysis-results)
+5. [Power BI Dashboard](#-power-bi-dashboard)
+6. [Recommendations](#-recommendations)
+7. [Limitations](#-limitations)
+8. [Repository Structure](#-repository-structure)
+
+---
+
+## Business Problem
+
+A retail business sells clothing, accessories, footwear and outerwear, and wants to understand **who its customers are and what drives their spending**. Leadership needs answers to questions such as:
+
+- Which customer groups (gender, age, subscribers vs. non-subscribers) generate the most revenue?
+- Do discounts and subscriptions actually lead to higher spending?
+- Which products and categories perform best by volume, rating and discount reliance?
+- How loyal is the customer base, and are repeat buyers more likely to subscribe?
+- Does the shipping option a customer chooses relate to how much they spend?
+
+**Goal:** turn raw purchase data into insights that guide marketing, pricing and loyalty decisions.
+
+---
+
+##  About the Data
+
+| Item | Detail |
+|---|---|
+| File | `Customer_Shopping_Behavior.csv` |
+| Size | 3,900 rows Ã— 18 columns (one row per customer, unique `Customer ID`) |
+| Geography | 50 US states |
+| Categories | Clothing, Accessories, Footwear, Outerwear |
+
+**Columns**
+
+| Group | Fields |
+|---|---|
+| Demographics | Customer ID, Age (18â€“70), Gender, Location, Subscription Status |
+| Purchase details | Item Purchased, Category, Purchase Amount (USD, $20â€“$100), Size, Color, Season |
+| Behaviour | Discount Applied, Promo Code Used, Previous Purchases (1â€“50), Frequency of Purchases, Review Rating (2.5â€“5.0), Shipping Type, Payment Method |
+
+**Data quality checks and cleaning**
+
+| Issue | Action |
+|---|---|
+| 37 missing values in `Review Rating` (about 1%) | Imputed with the **median rating of each product category**, so one category's ratings do not skew another's |
+| Inconsistent column names | Converted to `snake_case` (e.g. `Purchase Amount (USD)` â†’ `purchase_amount`) |
+| `Discount Applied` and `Promo Code Used` identical in all 3,900 rows | Confirmed redundant and **dropped `promo_code_used`** |
+| No age grouping | Created `age_group` with quartile binning (`pd.qcut`): Young Adult 18â€“31, Adult 32â€“44, Middle-aged 45â€“57, Senior 58â€“70 |
+| Purchase frequency stored as text | Created `purchase_frequency_days` (e.g. Weekly = 7, Monthly = 30, Annually = 365) |
+
+---
+
+## Approach and Tools
+
+1. **Python (pandas):** loading, profiling, cleaning and feature engineering (`Customer_Shopping_Behavior-Analysis.ipynb`).
+2. **PostgreSQL:** the cleaned dataframe was loaded into a database through SQLAlchemy, then business questions were answered with SQL using aggregations, CTEs, subqueries, `CASE` and window functions (`Customer_Behavior_SQL_QUERIES.sql`).
+3. **Power BI:** an interactive dashboard connected to the PostgreSQL table (`Customer_Behavior_Dashboard.pbix`).
+
+---
+
+##  Analysis Results
+
+**Overall:** total revenue of **$233,081**, average purchase of **$59.76**, average review rating of about **3.75 / 5**.
+
+### 1. Revenue by gender
+
+| Gender | Customers | Total revenue | Share of revenue | Avg purchase |
+|---|---|---|---|---|
+| Male | 2,652 | $157,890 | 67.7% | $59.54 |
+| Female | 1,248 | $75,191 | 32.3% | $60.25 |
+
+![Revenue by gender](images/revenue_by_gender.png)
+
+**Insight:** men generate about two-thirds of revenue, but only because they are about two-thirds of the customer base. **Average spend per purchase is nearly identical** ($59.54 vs. $60.25).
+
+### 2. Revenue by category
+
+| Category | Revenue | Share |
+|---|---|---|
+| Clothing | $104,264 | 44.7% |
+| Accessories | $74,200 | 31.8% |
+| Footwear | $36,093 | 15.5% |
+| Outerwear | $18,524 | 7.9% |
+
+![Revenue by category](images/revenue_by_category.png)
+
+**Insight:** Clothing and Accessories together bring in about 76% of revenue. Outerwear is the smallest category, with a lower average purchase ($57.17 vs. about $60 elsewhere).
+
+### 3. Revenue by age group
+
+| Age group | Revenue | Share | Avg purchase |
+|---|---|---|---|
+| Young Adult (18â€“31) | $62,143 | 26.7% | $60.45 |
+| Middle-aged (45â€“57) | $59,197 | 25.4% | $60.04 |
+| Adult (32â€“44) | $55,978 | 24.0% | $59.42 |
+| Senior (58â€“70) | $55,763 | 23.9% | $59.07 |
+
+![Revenue by age group](images/revenue_by_age_group.png)
+
+**Insight:** revenue is spread fairly evenly across age groups. Young Adults lead, but the gap between the top and bottom group is under 3 percentage points.
+
+### 4. Subscribers vs. non-subscribers
+
+| Status | Customers | Avg spend | Total revenue |
+|---|---|---|---|
+| Non-subscribers | 2,847 (73%) | $59.87 | $170,436 |
+| Subscribers | 1,053 (27%) | $59.49 | $62,645 |
+
+![Subscription split](images/subscription_split.png)
+
+**Insight:** subscribers do **not** spend more per purchase. Non-subscribers bring in more total revenue only because there are far more of them.
+
+**Notable pattern:** in this dataset **none of the 1,248 female customers are subscribers**, while 39.7% of male customers are. Subscription is effectively a male-only feature in this data (see Limitations).
+
+### 5. Customer loyalty segments
+
+Segments are based on `previous_purchases`: **New** = 1, **Returning** = 2â€“10, **Loyal** = 11 or more.
+
+| Segment | Customers | Share |
+|---|---|---|
+| Loyal | 3,116 | 79.9% |
+| Returning | 701 | 18.0% |
+| New | 83 | 2.1% |
+
+![Customer segments](images/customer_segments.png)
+
+**Insight:** the customer base is overwhelmingly repeat buyers. Only 2% are first-time purchasers, which points to strong retention but a weak flow of new customers.
+
+### 6. Are repeat buyers more likely to subscribe?
+
+Among customers with more than 5 previous purchases: **958 of 3,476 (27.6%)** subscribe, compared with **27.0%** across all customers.
+
+**Insight:** repeat buying has essentially **no link to subscribing**. Frequent buyers are not being converted into subscribers.
+
+### 7. Discounts
+
+- **43%** of purchases (1,677) used
