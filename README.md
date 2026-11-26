@@ -80,7 +80,6 @@ A retail business sells clothing, accessories, footwear and outerwear, and wants
 | Male | 2,652 | $157,890 | 67.7% | $59.54 |
 | Female | 1,248 | $75,191 | 32.3% | $60.25 |
 
-![Revenue by gender](images/revenue_by_gender.png)
 
 **Insight:** men generate about two-thirds of revenue, but only because they are about two-thirds of the customer base. **Average spend per purchase is nearly identical** ($59.54 vs. $60.25).
 
@@ -93,7 +92,6 @@ A retail business sells clothing, accessories, footwear and outerwear, and wants
 | Footwear | $36,093 | 15.5% |
 | Outerwear | $18,524 | 7.9% |
 
-![Revenue by category](images/revenue_by_category.png)
 
 **Insight:** Clothing and Accessories together bring in about 76% of revenue. Outerwear is the smallest category, with a lower average purchase ($57.17 vs. about $60 elsewhere).
 
@@ -106,7 +104,7 @@ A retail business sells clothing, accessories, footwear and outerwear, and wants
 | Adult (32–44) | $55,978 | 24.0% | $59.42 |
 | Senior (58–70) | $55,763 | 23.9% | $59.07 |
 
-![Revenue by age group](images/revenue_by_age_group.png)
+
 
 **Insight:** revenue is spread fairly evenly across age groups. Young Adults lead, but the gap between the top and bottom group is under 3 percentage points.
 
@@ -117,7 +115,6 @@ A retail business sells clothing, accessories, footwear and outerwear, and wants
 | Non-subscribers | 2,847 (73%) | $59.87 | $170,436 |
 | Subscribers | 1,053 (27%) | $59.49 | $62,645 |
 
-![Subscription split](images/subscription_split.png)
 
 **Insight:** subscribers do **not** spend more per purchase. Non-subscribers bring in more total revenue only because there are far more of them.
 
@@ -133,7 +130,6 @@ Segments are based on `previous_purchases`: **New** = 1, **Returning** = 2–10,
 | Returning | 701 | 18.0% |
 | New | 83 | 2.1% |
 
-![Customer segments](images/customer_segments.png)
 
 **Insight:** the customer base is overwhelmingly repeat buyers. Only 2% are first-time purchasers, which points to strong retention but a weak flow of new customers.
 
@@ -192,8 +188,6 @@ Among customers with more than 5 previous purchases: **958 of 3,476 (27.6%)** su
 | Store Pickup | $59.89 | 650 |
 | Next Day Air | $58.63 | 648 |
 | Standard | $58.46 | 654 |
-
-![Average spend by shipping type](images/avg_spend_by_shipping.png)
 
 **Insight:** Express customers spend about **$2.02 (3.5%) more** than Standard customers. The difference is small compared with the typical spread in purchase amounts (standard deviation of about $24).
 
